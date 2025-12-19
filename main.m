@@ -5,8 +5,8 @@
 disp('MATLAB script is running!');
 
 % Simple calculation
-a = 5;
-b = 7;
+a = 3;
+b = 3;
 c = a + b;
 
 % Display the result
