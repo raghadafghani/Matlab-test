@@ -1,0 +1,11 @@
+name: Run MATLAB Script
+
+on: [push]
+
+jobs:
+  matlab-job:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run MATLAB script
+        run: matlab -batch "run('main.m')"
